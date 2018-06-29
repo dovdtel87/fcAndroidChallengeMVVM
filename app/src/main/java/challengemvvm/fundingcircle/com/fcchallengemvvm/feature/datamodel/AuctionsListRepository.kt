@@ -1,6 +1,5 @@
 package challengemvvm.fundingcircle.com.fcchallengemvvm.feature.datamodel
 
-import challengemvvm.fundingcircle.com.fcchallengemvvm.model.Auction
 import challengemvvm.fundingcircle.com.fcchallengemvvm.model.networkmodel.AuctionsEndPoint
 import challengemvvm.fundingcircle.com.fcchallengemvvm.network.FundingCircleClient
 import io.reactivex.Observable
@@ -19,9 +18,4 @@ class AuctionsListRepository : AuctionsListRepositoryInterface {
                 .observeOn(AndroidSchedulers.mainThread());
 
     }
-
-
-
-
-
 }

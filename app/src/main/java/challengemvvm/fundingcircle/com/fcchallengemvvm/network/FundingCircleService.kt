@@ -1,6 +1,5 @@
 package challengemvvm.fundingcircle.com.fcchallengemvvm.network
 
-import challengemvvm.fundingcircle.com.fcchallengemvvm.model.Auction
 import challengemvvm.fundingcircle.com.fcchallengemvvm.model.networkmodel.AuctionsEndPoint
 import io.reactivex.Observable
 import retrofit2.http.GET

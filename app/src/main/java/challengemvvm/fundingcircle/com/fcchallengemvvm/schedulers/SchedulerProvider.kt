@@ -18,13 +18,5 @@ private constructor() : ISchedulerProvider {
     companion object {
 
         var INSTANCE: SchedulerProvider = SchedulerProvider()
-
-        /*val instance: SchedulerProvider
-            get() {
-                if (INSTANCE == null) {
-                    INSTANCE = SchedulerProvider()
-                }
-                return INSTANCE
-            }*/
     }
 }

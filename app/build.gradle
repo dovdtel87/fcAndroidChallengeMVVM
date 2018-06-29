@@ -33,7 +33,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    def ANDROID_SUPPORT_LIB = '27.1.1'
+    def ANDROID_SUPPORT_LIB = '28.0.0-alpha1'
     implementation "com.android.support:support-annotations:$ANDROID_SUPPORT_LIB"
     implementation "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIB"
     implementation "com.android.support:design:$ANDROID_SUPPORT_LIB"

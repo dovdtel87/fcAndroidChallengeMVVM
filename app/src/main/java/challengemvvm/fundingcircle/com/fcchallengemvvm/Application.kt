@@ -13,9 +13,7 @@ class Application : Application() {
 
     val schedulerProvider: ISchedulerProvider
         get() = SchedulerProvider.INSTANCE
-
-    //val viewModel: AuctionsListViewModel = AuctionsListViewModel(dataModel/*, schedulerProvider*/)
-
+    
     fun getViewModel() : AuctionsListViewModel {
         return  AuctionsListViewModel(dataModel/*, schedulerProvider*/)
     }
